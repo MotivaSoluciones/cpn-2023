@@ -248,7 +248,7 @@ input[type="submit"] {
 	transition: all 0.3s ease 0s;
 	background: transparent;
 	position: relative;
-	background-color: #111111;
+	background-color: #ef8001;
 	font-size: 12px;
 	border: none;
 }
@@ -3581,7 +3581,7 @@ DS .product-list .product-item {
 .tagcloud .activo,
 .tagcloud a:hover {
 	color: #fff;
-	background-color: #000;
+	background-color: #ef8001;
 }
 
 .widget_price_filter .price_slider_wrapper {
@@ -4748,7 +4748,7 @@ FOOTER
 	left: 10px;
 	margin: 0 -30px -15px 0;
 	width: 47px;
-	background-color: #7d7b7b;
+	background-color: #ef8001;
 }
 
 .section-title .sub-title {
@@ -4874,7 +4874,7 @@ FOOTER
 	content: '';
 	width: 50px;
 	height: 2px;
-	background-color: #7d7b7b;
+	background-color: #ef8001;
 	display: block;
 	margin: 0 auto;
 	margin-top: 5px;
@@ -5544,7 +5544,7 @@ FOOTER
 	width: 0px;
 	height: 2px;
 	display: block;
-	background-color: #000;
+	background-color: #ef8001;
 	margin: 0 auto;
 	margin-top: 8px;
 	content: '';
@@ -5661,7 +5661,7 @@ FOOTER
 
 .banner-text .button {
 	margin-top: 35px;
-	background-color: #000;
+	background-color: #ef8001;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -6514,7 +6514,7 @@ FOOTER
 	display: block;
 	width: 0%;
 	margin-top: 3px;
-	background-color: #222;
+	background-color: #ef8001;
 	-webkit-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 }
@@ -9293,6 +9293,7 @@ RESPONSIVE
 	color: #7d7b7b;
 	font-size: 12px;
 	margin-bottom: 15px;
+    text-decoration: line-through;
 }
 
 .basket {
@@ -9325,7 +9326,7 @@ RESPONSIVE
 	width: 50px;
 	height: 2px;
 	display: block;
-	background: #000 no-repeat center center;
+	background: #ef8001 no-repeat center center;
 	display: block;
 	margin: 0 auto;
 	margin-top: 10px;
@@ -9372,4 +9373,8 @@ RESPONSIVE
 	.white-popup {
 		width: 100%;
 	}
+}
+
+.header.style3 .main-menu > li:nth-last-child(2) {
+    display: none;
 }
