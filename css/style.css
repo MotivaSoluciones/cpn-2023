@@ -196,10 +196,11 @@ input[type="email"],
 textarea,
 input[type="password"],
 input[type="tel"] {
-	border: 1px solid #e8e8e8;
+	border: 1px solid #cfcfcf;
 	padding: 6px 15px;
 	color: #747474;
 	max-width: 100%;
+	border-radius: 4px;
 }
 
 input[type="text"]:focus,
@@ -3953,11 +3954,9 @@ ICON
 }
 
 .element-icon.style2 .icon {
-	display: inline-block;
 	font-size: 36px;
 	float: none;
 	margin: 0;
-	margin-right: 20px;
 }
 
 .element-icon.style2 .content {
@@ -5892,8 +5891,17 @@ FOOTER
 	margin-bottom: 30px;
 }
 
-.product-list-grid2 .product-item {
+.product-item {
 	margin-bottom: 40px;
+    padding: 10px 14px;
+    border: 0px solid;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 4px 3px 15px 5px rgb(89 89 89 / 11%);
+    -webkit-box-shadow: 4px 3px 15px 5px rgb(89 89 89 / 11%);
+}
+.mobile-slide-item {
+	list-style: none;
 }
 
 /*block-category-carousel*/
@@ -6103,7 +6111,6 @@ FOOTER
  -------------------------------*/
 
 .product-details-full {
-	background-color: #eaeaea;
 	padding: 40px 0;
 	margin-top: -1px;
 }
@@ -8028,11 +8035,11 @@ BLOG PAGE
 	font-family: 'Roboto';
 }
 
-/*
-.kt-contact-form textarea {
-	height: 306px;
+
+.kt-contact-form {
+	margin-bottom: 20px;
 }
-*/
+
 
 .page-404 {
 	padding: 100px 0 110px 0;
@@ -8631,7 +8638,6 @@ RESPONSIVE
 	.header.style5 .main-menu > li {
 		padding: 0 15px;
 	}
-
 
 	.header.style4 .logo {
 		text-align: center;
@@ -9329,7 +9335,7 @@ RESPONSIVE
 	background: #ef8001 no-repeat center center;
 	display: block;
 	margin: 0 auto;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 }
 
 .nombre-card {
@@ -9377,4 +9383,27 @@ RESPONSIVE
 
 .header.style3 .main-menu > li:nth-last-child(2) {
     display: none;
+}
+
+.dis-flexJust{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.dis-flexJust .button{
+	padding: 12px 15px;
+    border-radius: 50%;
+    font-size: 19px;
+	margin-right: 4px;
+}
+.price-flex p {
+	margin-bottom: 4px;
+}
+
+.border-leftc{
+	border-left: 1px solid #e5e5e5;
+}
+.style3{
+	list-style: none;
 }
